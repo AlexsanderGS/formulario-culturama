@@ -132,9 +132,25 @@
 
                 <label for="favoriteColor">Cor favorita:</label>
                 <input id="favoriteColor" type="color" name="color">
-                
             </fieldset>
             <br>
+
+            <fieldset>
+                <legend>Deixe sua opinião:</legend>
+                <p>Como você avalia nossos serviços?</p>
+                <input id="otimo" type="radio" name="userOpnion" value="otimo">
+                <label for="otimo">Ótimo</label>
+                <input id="bom" type="radio" name="userOpnion" value="bom">
+                <label for="bom">Bom</label>
+                <input id="regular" type="radio" name="userOpnion" value="regular">
+                <label for="regular">Regular</label>
+                <input id="ruim" type="radio" name="userOpnion" value="ruim">
+                <label for="ruim">Ruim</label>
+
+                <p>Deixe um comentário:</p>
+                <label for="comment"></label>
+                <textarea id="comment" name="userComment" placeholder="Digite aqui..." rows="4" cols="50"></textarea>
+            </fieldset>
 
             <button type="submit">Enviar</button>
         </form>
