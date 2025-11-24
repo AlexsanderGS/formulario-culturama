@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "Work Sans", sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 700px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Fjalla One", sans-serif;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 100px;
+}
+
+form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+fieldset {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 5px;
+}
