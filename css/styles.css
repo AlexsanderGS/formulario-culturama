@@ -34,6 +34,7 @@ form {
     background-color: white;
     padding: 15px;
     border-radius: 5px;
+    margin-bottom: 100px;
 }
 
 fieldset {
@@ -52,6 +53,11 @@ legend {
 label {
     display: inline-block;
     margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+p {
+    margin-bottom: 10px;
 }
 
 input,
@@ -78,6 +84,35 @@ textarea {
     min-height: 100px;
 }
 
-p {
-    margin-bottom: 10px;
+input:invalid, 
+select:invalid, 
+textarea:invalid {
+    border-color: red;
 }
+
+input:valid, 
+select:valid, 
+textarea:valid {
+    border-color: green;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-right: 25px;
+    background-color:  #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: green;
+    color: #FFFFFF;
+}
+
+button[type="reset"]:hover {
+    background-color: orangered;
+    color: #FFFFFF;
+}
+
