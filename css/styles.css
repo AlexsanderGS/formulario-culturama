@@ -116,3 +116,8 @@ button[type="reset"]:hover {
     color: #FFFFFF;
 }
 
+h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
